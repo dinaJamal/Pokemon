@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Pokemon</title>
+  </head>
+  <body onload="getPokemons(4) ">
+    <nav>
+      <div class="nav-wrapper #424242 grey darken-3">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required />
+            <label class="label-icon" for="search"
+              ><i class="material-icons">search</i></label
+            >
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container pokemonList">
+      <div id="pokemonItems" class="row #26c6da cyan "></div>
+    </div>
+
+    <footer class= "#424242 grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Pokemon Capture</h5>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2022 pokeapi.co
+          <a class="grey-text text-lighten-4 right" href="#!"> Links</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
